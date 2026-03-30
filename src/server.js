@@ -90,5 +90,5 @@ app.delete("/tarefas/:id", (req, res) => {
 });
 
 app.listen(PORTA, () => {
-  console.log(Servidor rodando em http://localhost:${PORTA});
+  console.log(`Servidor rodando em http://localhost:${PORTA}`);
 });
